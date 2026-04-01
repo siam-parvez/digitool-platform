@@ -6,10 +6,10 @@ const CTA = () => {
     <section className='bg-linear-45 from-[#4F39F6] to-[#9514FA] py-16 text-white'>
       <div className='min-h-screen container mx-auto w-full p-4 flex flex-col items-center justify-center'>
         <div className='text-center'>
-          <h1 className='text-5xl font-extrabold'>
+          <h1 className='text-2xl lg:text-5xl font-extrabold'>
             Ready to Transform Your Workflow?
           </h1>
-          <p className='py-6'>
+          <p className='text-sm lg:text-base py-6'>
             Join thousands of professionals who are already using Digitools to
             work smarter. Start your free trial today.
           </p>
@@ -22,7 +22,7 @@ const CTA = () => {
             View Pricing
           </button>
         </div>
-        <p className='py-6 text-center'>
+        <p className='py-6 text-sm lg:text-base text-center'>
           14-day free trial • No credit card required • Cancel anytime
         </p>
       </div>

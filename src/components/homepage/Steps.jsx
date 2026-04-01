@@ -6,8 +6,10 @@ const Steps = () => {
     <section className='bg-base-200 py-16'>
       <div className='min-h-screen container mx-auto w-full p-4 flex flex-col items-center justify-center'>
         <div className='text-center'>
-          <h1 className='text-5xl font-extrabold'>Get Started in 3 Steps</h1>
-          <p className='py-6 text-neutral-500'>
+          <h1 className='text-2xl lg:text-5xl font-extrabold'>
+            Get Started in 3 Steps
+          </h1>
+          <p className='py-6 text-neutral-500 text-sm lg:text-base'>
             Start using premium digital tools in minutes, not hours.
           </p>
         </div>
@@ -21,7 +23,7 @@ const Steps = () => {
                 <User className='size-8' />
               </div>
               <h2 className='card-title font-bold'>Create Account</h2>
-              <p className='text-neutral-500'>
+              <p className='text-neutral-500 text-sm lg:text-base'>
                 Sign up for free in seconds. No credit card required to get
                 started.
               </p>
@@ -37,7 +39,7 @@ const Steps = () => {
                 <Package className='size-8' />
               </div>
               <h2 className='card-title font-bold'>Choose Products</h2>
-              <p className='text-neutral-500'>
+              <p className='text-neutral-500 text-sm lg:text-base'>
                 Browse our catalog and select the tools that fit your needs.
               </p>
             </div>
@@ -52,7 +54,7 @@ const Steps = () => {
                 <Rocket className='size-8' />
               </div>
               <h2 className='card-title font-bold'>Start Creating</h2>
-              <p className='text-neutral-500'>
+              <p className='text-neutral-500 text-sm lg:text-base'>
                 Download and start using your premium tools immediately.
               </p>
             </div>

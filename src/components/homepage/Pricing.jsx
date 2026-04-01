@@ -6,10 +6,10 @@ const Pricing = () => {
     <section className='bg-base-100 py-16'>
       <div className='min-h-screen container mx-auto w-full p-4 flex flex-col items-center justify-center'>
         <div className='text-center'>
-          <h1 className='text-5xl font-extrabold'>
+          <h1 className='text-2xl lg:text-5xl font-extrabold'>
             Simple, Transparent Pricing
           </h1>
-          <p className='py-6 text-neutral-500'>
+          <p className='py-6 text-neutral-500 text-sm lg:text-base'>
             Choose the plan that fits your needs. Upgrade or downgrade anytime.
           </p>
         </div>

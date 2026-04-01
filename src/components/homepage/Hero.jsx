@@ -10,13 +10,13 @@ const Hero = () => {
           <img src={heroImg} className='rounded-lg border border-neutral-100' />
           <div className='space-y-2 lg:space-y-3'>
             <div className='badge badge-soft badge-primary rounded-full'>
-              <Circle className='size-3 bg-purple-400 rounded-full'/>
+              <Circle className='size-3 bg-purple-400 rounded-full' />
               New: AI-Powered Tools Available
             </div>
-            <h1 className='text-5xl font-extrabold'>
+            <h1 className='text-2xl lg:text-5xl font-extrabold'>
               Supercharge Your Digital Workflow
             </h1>
-            <p className='py-6 text-neutral-500'>
+            <p className='py-6 text-neutral-500 text-sm lg:text-base'>
               Access premium AI tools, design assets, templates, and
               productivity software—all in one place. Start creating faster
               today. Explore Products

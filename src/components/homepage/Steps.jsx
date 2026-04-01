@@ -51,10 +51,9 @@ const Steps = () => {
               <div className='rounded-full p-3 bg-primary/10 text-primary'>
                 <Rocket className='size-8' />
               </div>
-              <h2 className='card-title font-bold'>Create Account</h2>
+              <h2 className='card-title font-bold'>Start Creating</h2>
               <p className='text-neutral-500'>
-                Sign up for free in seconds. No credit card required to get
-                started.
+                Download and start using your premium tools immediately.
               </p>
             </div>
           </div>

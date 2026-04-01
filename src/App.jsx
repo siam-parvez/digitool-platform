@@ -6,6 +6,7 @@ import Hero from './components/homepage/Hero';
 import Stats from './components/homepage/Stats';
 import Steps from './components/homepage/Steps';
 import Pricing from './components/homepage/Pricing';
+import CTA from './components/homepage/CTA';
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
       <Hero />
       <Stats />
       <Steps />
-      <Pricing/>
+      <Pricing />
+      <CTA/>
       <ToastContainer />
     </>
   );

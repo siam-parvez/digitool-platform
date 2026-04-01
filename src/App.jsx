@@ -7,9 +7,16 @@ import Stats from './components/homepage/Stats';
 import Steps from './components/homepage/Steps';
 import Pricing from './components/homepage/Pricing';
 import CTA from './components/homepage/CTA';
+import Products from './components/homepage/Products';
+
+const fetchProducts = async () => {
+  const res = await fetch('/data.json');
+  return res.json();
+};
+
 
 function App() {
-
+ const productPromise = fetchProducts();
   const [cartItemCount, setCartItemCount] = useState(0);
 
   return (
@@ -17,9 +24,14 @@ function App() {
       <Navbar cartItemCount={cartItemCount} />
       <Hero />
       <Stats />
+      <Products
+        productPromise={productPromise}
+        cartItemCount={cartItemCount}
+        setCartItemCount={setCartItemCount}
+      />
       <Steps />
       <Pricing />
-      <CTA/>
+      <CTA />
       <ToastContainer />
     </>
   );

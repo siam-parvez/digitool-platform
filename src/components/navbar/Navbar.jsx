@@ -1,9 +1,9 @@
 import { ShoppingCart } from "lucide-react";
 import logo from "../../assets/logo.png"
 
-const Navbar = () => {
+const Navbar = ({cartItemCount}) => {
   return (
-    <div className='bg-base-100 shadow-sm'>
+    <header className='bg-base-100 border-b border-neutral-100'>
       <div className='navbar container mx-auto'>
         <div className='navbar-start'>
           <div className='dropdown'>
@@ -69,58 +69,20 @@ const Navbar = () => {
         <div className='navbar-end gap-2'>
           <div className='indicator'>
             <ShoppingCart />
-            <span className='badge badge-xs indicator-item hidden'>0</span>
+            {cartItemCount > 0 && (
+              <span className='badge badge-xs indicator-item'>
+                {cartItemCount}
+              </span>
+            )}
           </div>
           <a className='btn btn-ghost'>Login</a>
-          <a className='btn btn-primary'>Get Started</a>
+          <a className='btn btn-primary rounded-full bg-linear-45 from-[#4F39F6] to-[#9514FA] hover:opacity-90 transition-opacity duration-300'>
+            Get Started
+          </a>
         </div>
       </div>
-    </div>
+    </header>
   );
-}
+};
 
 export default Navbar
-
-
-// <div className='navbar bg-base-100 shadow-sm'>
-//       <div className='flex-1'>
-//         <a className='btn btn-ghost text-xl'>
-//           <img className='max-w-32' src={logo} alt='' />
-//         </a>
-//       </div>
-//       <div className='flex items-center gap-3'>
-//         <div className='indicator'>
-//           <ShoppingCart />
-//           <span className='badge badge-sm indicator-item'>8</span>
-//         </div>
-//         <div className='dropdown dropdown-end'>
-//           <div
-//             tabIndex={0}
-//             role='button'
-//             className='btn btn-ghost btn-circle avatar'>
-//             <div className='w-10 rounded-full'>
-//               <img
-//                 alt='Tailwind CSS Navbar component'
-//                 src='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
-//               />
-//             </div>
-//           </div>
-//           <ul
-//             tabIndex='-1'
-//             className='menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow'>
-//             <li>
-//               <a className='justify-between'>
-//                 Profile
-//                 <span className='badge'>New</span>
-//               </a>
-//             </li>
-//             <li>
-//               <a>Settings</a>
-//             </li>
-//             <li>
-//               <a>Logout</a>
-//             </li>
-//           </ul>
-//         </div>
-//       </div>
-//     </div>

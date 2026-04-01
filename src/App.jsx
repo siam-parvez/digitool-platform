@@ -5,6 +5,7 @@ import { useState } from 'react'
 import Hero from './components/homepage/Hero';
 import Stats from './components/homepage/Stats';
 import Steps from './components/homepage/Steps';
+import Pricing from './components/homepage/Pricing';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       <Navbar cartItemCount={cartItemCount} />
       <Hero />
       <Stats />
-      <Steps/>
+      <Steps />
+      <Pricing/>
       <ToastContainer />
     </>
   );

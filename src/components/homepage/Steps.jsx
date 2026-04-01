@@ -11,8 +11,8 @@ const Steps = () => {
             Start using premium digital tools in minutes, not hours.
           </p>
         </div>
-        <div className='flex flex-col md:flex-row gap-6 items-center justify-center'>
-          <div className='card bg-base-100 w-96 shadow-sm relative'>
+        <div className='flex flex-col md:flex-row gap-6 items-center justify-center w-full'>
+          <div className='card bg-base-100 w-full shadow-sm relative'>
             <div className='card-body items-center text-center py-12'>
               <div className='absolute top-3 right-3 bg-primary rounded-full size-7 text-white flex justify-center items-center'>
                 01
@@ -28,7 +28,7 @@ const Steps = () => {
             </div>
           </div>
 
-          <div className='card bg-base-100 w-96 shadow-sm relative'>
+          <div className='card bg-base-100 w-full shadow-sm relative'>
             <div className='card-body items-center text-center py-12'>
               <div className='absolute top-3 right-3 bg-primary rounded-full size-7 text-white flex justify-center items-center'>
                 02
@@ -43,7 +43,7 @@ const Steps = () => {
             </div>
           </div>
 
-          <div className='card bg-base-100 w-96 shadow-sm relative'>
+          <div className='card bg-base-100 w-full shadow-sm relative'>
             <div className='card-body items-center text-center py-12'>
               <div className='absolute top-3 right-3 bg-primary rounded-full size-7 text-white flex justify-center items-center'>
                 03

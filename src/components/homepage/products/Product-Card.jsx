@@ -3,7 +3,8 @@ import React from 'react';
 const ProductCard = ({product}) => {
     return (
         <div className='card w-full bg-base-100 shadow-sm border border-neutral-200 relative'>
-            <div className='absolute top-2 right-2 badge badge-soft badge-warning uppercase'>
+            <div
+                className={`${product.tagType === "new" ? "badge-success" : product.tagType === "popular" ? "badge-primary" : "badge-warning"} absolute top-2 right-2 badge badge-soft uppercase`}>
                 {product.tagType}
             </div>
             <div className='card-body flex flex-col gap-6 justify-between'>

@@ -18,6 +18,7 @@ const fetchProducts = async () => {
 function App() {
     const productPromise = fetchProducts();
     const [cartItemCount, setCartItemCount] = useState(0);
+    const [cartItem, setCartItem] = useState([]);
 
     return (
         <>
@@ -29,6 +30,8 @@ function App() {
             >
                 <Products
                     productPromise={productPromise}
+                    cartItem={cartItem}
+                    setCartItem={setCartItem}
                     cartItemCount={cartItemCount}
                     setCartItemCount={setCartItemCount}
                 />

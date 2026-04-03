@@ -11,6 +11,7 @@ const CartCard = ({products}) => {
                             products.map((product) => {
                                 return (
                                     <div
+                                        key={product.id}
                                         className="flex gap-6 items-center w-full justify-between bg-gray-100 rounded-xl p-4">
                                         <div className="flex gap-4">
                                             <figure

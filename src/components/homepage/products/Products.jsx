@@ -2,7 +2,7 @@ import React, {use, useState} from 'react';
 import ProductCard from "./Product-Card.jsx";
 import CartCard from "./Cart-Card.jsx";
 
-const Products = ({productPromise, cartItemCount, setCartItemCount, cartItem, setCartItem}) => {
+const Products = ({productPromise, cartItem, setCartItem}) => {
     const products = use(productPromise);
     const [showCart, setShowCart] = useState(false);
     return (
@@ -28,7 +28,7 @@ const Products = ({productPromise, cartItemCount, setCartItemCount, cartItem, se
                         id='cart-btn'
                         className={`btn rounded-full hover:opacity-90 transition-opacity duration-300 min-w-24 ${showCart ? "btn-primary border-none bg-linear-45 from-[#4F39F6] to-[#9514FA]" : "btn-ghost"}`}
                         onClick={() => setShowCart(true)}>
-                        Cart {cartItemCount > 0 && <span>{cartItemCount}</span>}
+                        Cart {cartItem.length > 0 && <span>{cartItem.length}</span>}
                     </button>
                 </div>
                 {

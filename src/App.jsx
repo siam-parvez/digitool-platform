@@ -8,6 +8,7 @@ import Steps from './components/homepage/Steps';
 import Pricing from './components/homepage/Pricing';
 import CTA from './components/homepage/CTA';
 import Products from './components/homepage/products/Products.jsx';
+import Footer from "./components/homepage/Footer.jsx";
 
 const fetchProducts = async () => {
     const res = await fetch('/data.json');
@@ -40,7 +41,7 @@ function App() {
             <Steps/>
             <Pricing/>
             <CTA/>
-            {/* TODO: Priority ( High ) siamparvez 040220260058 footer and also toast */}
+            <Footer/>
             <ToastContainer/>
         </>
     );

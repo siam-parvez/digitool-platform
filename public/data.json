@@ -4,7 +4,8 @@
     "name": "Starter Resume Kit",
     "description": "Basic resume builder with essential templates for freshers.",
     "price": 9.99,
-    "period": "Yearly",
+    "period": "Monthly",
+    "tag": "new",
     "tagType": "new",
     "features": [
       "20+ templates",
@@ -19,6 +20,7 @@
     "description": "Advanced resume builder with premium templates.",
     "price": 19.99,
     "period": "Monthly",
+    "tag": "popular",
     "tagType": "popular",
     "features": [
       "100+ templates",
@@ -32,7 +34,8 @@
     "name": "Career Boost Plan",
     "description": "Monthly plan for continuous resume and career improvements.",
     "price": 7.99,
-    "period": "Monthly",
+    "period": "One-Time",
+    "tag": "best seller",
     "tagType": "best seller",
     "features": [
       "Unlimited edits",
@@ -47,6 +50,7 @@
     "description": "Complete toolkit for job seekers including resumes and tracking.",
     "price": 14.99,
     "period": "Monthly",
+    "tag": "popular",
     "tagType": "popular",
     "features": [
       "Resume builder",
@@ -61,6 +65,7 @@
     "description": "Premium yearly plan for professionals and executives.",
     "price": 79.99,
     "period": "Yearly",
+    "tag": "best seller",
     "tagType": "best seller",
     "features": [
       "All templates unlocked",
@@ -75,6 +80,7 @@
     "description": "Create stunning portfolios to showcase freelance work.",
     "price": 12.99,
     "period": "Monthly",
+    "tag": "new",
     "tagType": "new",
     "features": [
       "Portfolio templates",
@@ -88,7 +94,8 @@
     "name": "Interview Prep Pro",
     "description": "Comprehensive interview preparation tools and resources.",
     "price": 5.99,
-    "period": "Monthly",
+    "period": "One-Time",
+    "tag": "popular",
     "tagType": "popular",
     "features": [
       "Mock interviews",
@@ -103,6 +110,7 @@
     "description": "All-in-one package for resumes, interviews, and job tracking.",
     "price": 99.99,
     "period": "Yearly",
+    "tag": "best seller",
     "tagType": "best seller",
     "features": [
       "All features included",

@@ -4,122 +4,111 @@
     "name": "Starter Resume Kit",
     "description": "Basic resume builder with essential templates for freshers.",
     "price": 9.99,
-    "period": "one-time",
-    "tag": "new",
+    "period": "Yearly",
     "tagType": "new",
-    "features": ["20+ templates", "Basic ATS optimization", "Export to PDF"],
-    "icon": "FileText"
+    "features": [
+      "20+ templates",
+      "Basic ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "https://i.ibb.co.com/nqmhsmSZ/camera.png"
   },
   {
     "id": "prod_002",
     "name": "Pro Resume Builder",
-    "description": "Advanced resume builder with premium templates and customization.",
+    "description": "Advanced resume builder with premium templates.",
     "price": 19.99,
-    "period": "one-time",
-    "tag": "popular",
+    "period": "Monthly",
     "tagType": "popular",
     "features": [
       "100+ templates",
       "Advanced ATS optimization",
-      "Custom sections",
-      "Export to PDF & DOCX"
+      "Custom sections"
     ],
-    "icon": "Award"
+    "icon": "https://i.ibb.co.com/93pL1LLv/design.png"
   },
   {
     "id": "prod_003",
     "name": "Career Boost Plan",
     "description": "Monthly plan for continuous resume and career improvements.",
     "price": 7.99,
-    "period": "monthly",
-    "tag": "best seller",
+    "period": "Monthly",
     "tagType": "best seller",
     "features": [
       "Unlimited edits",
       "Resume analytics",
-      "Cover letter builder",
-      "Priority support"
+      "Cover letter builder"
     ],
-    "icon": "TrendingUp"
+    "icon": "https://i.ibb.co.com/4wWMS4Jv/operation.png"
   },
   {
     "id": "prod_004",
     "name": "Job Hunter Pack",
     "description": "Complete toolkit for job seekers including resumes and tracking.",
     "price": 14.99,
-    "period": "monthly",
-    "tag": "popular",
+    "period": "Monthly",
     "tagType": "popular",
     "features": [
       "Resume builder",
       "Job tracking dashboard",
-      "Interview tips",
-      "Email templates"
+      "Interview tips"
     ],
-    "icon": "Briefcase"
+    "icon": "https://i.ibb.co.com/v6CLGLY4/portfolio.png"
   },
   {
     "id": "prod_005",
     "name": "Executive Suite",
     "description": "Premium yearly plan for professionals and executives.",
     "price": 79.99,
-    "period": "yearly",
-    "tag": "best seller",
+    "period": "Yearly",
     "tagType": "best seller",
     "features": [
       "All templates unlocked",
       "Executive resume review",
-      "LinkedIn optimization",
-      "1-on-1 consultation"
+      "LinkedIn optimization"
     ],
-    "icon": "Crown"
+    "icon": "https://i.ibb.co.com/676tRBtW/social.png"
   },
   {
     "id": "prod_006",
     "name": "Freelancer Portfolio Kit",
     "description": "Create stunning portfolios to showcase freelance work.",
     "price": 12.99,
-    "period": "one-time",
-    "tag": "new",
+    "period": "Monthly",
     "tagType": "new",
     "features": [
       "Portfolio templates",
       "Custom domain support",
-      "Client showcase",
-      "SEO optimization"
+      "Client showcase"
     ],
-    "icon": "Globe"
+    "icon": "https://i.ibb.co.com/nqmhsmSZ/camera.png"
   },
   {
     "id": "prod_007",
     "name": "Interview Prep Pro",
     "description": "Comprehensive interview preparation tools and resources.",
     "price": 5.99,
-    "period": "monthly",
-    "tag": "popular",
+    "period": "Monthly",
     "tagType": "popular",
     "features": [
       "Mock interviews",
       "Common Q&A database",
-      "AI feedback",
-      "Performance tracking"
+      "AI feedback"
     ],
-    "icon": "Mic"
+    "icon": "https://i.ibb.co.com/nqmhsmSZ/camera.png"
   },
   {
     "id": "prod_008",
     "name": "Ultimate Career Bundle",
     "description": "All-in-one package for resumes, interviews, and job tracking.",
     "price": 99.99,
-    "period": "yearly",
-    "tag": "best seller",
+    "period": "Yearly",
     "tagType": "best seller",
     "features": [
       "All features included",
       "Unlimited downloads",
-      "Career roadmap",
-      "Priority AI assistance"
+      "Career roadmap"
     ],
-    "icon": "Rocket"
+    "icon": "https://i.ibb.co.com/93pL1LLv/design.png"
   }
 ]
